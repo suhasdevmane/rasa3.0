@@ -90,7 +90,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: give_temperature
+- intent: asked_temperature
   examples: |
     - can you tell me what [temperature](temp) it is?
     - tell me the [temperature](temp)
@@ -98,3 +98,14 @@ nlu:
     - what [temperature](temp) is it?
     - how much the [temperature](temp) it is?
     - tell me [temperature](temp)
+
+- intent: asked_average_temperature
+  examples: |
+    - can you tell me what [mean temperature](avgtemp) it is?
+    - tell me the [temperature mean](avgtemp)
+    - got the [mean temperature](avgtemp)
+    - what [average temperature](avgtemp) is it?
+    - how much the [average temperature](avgtemp) it is?
+    - tell me [average temperature](avgtemp)
+    - what is [temperature mean](avgtemp)
+    - what is [average temperature](avgtemp)

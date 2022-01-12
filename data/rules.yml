@@ -14,5 +14,11 @@ rules:
 
 - rule: gives temperature
   steps:
-  - intent: give_temperature
+  - intent: asked_temperature
   - action: action_give_temperature
+
+
+- rule: gives average temperature
+  steps:
+  - intent: asked_average_temperature
+  - action: action_give_average_temperature
