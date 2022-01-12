@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rasasmart",
+  "private_key_id": "1ae686e5ac6c77657d5195a8fc16fe37d7162acf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCKYqtNwOxZnYt\nU6fkDu/+MW/mBa6V/BNL1VVnSwsV19nuMR99xMa+zJ8c7UODZulVSkO5UqzGEhbM\ngd2LDRxyddd1o7r3X0ytTe5m4HetwqeyafK8OjzNyzw8LZzy5uunn//lhHsx4Ou/\n06oNwKJ6fHvk8odt276+YsDRxN5PhMHBChOnqNraX03g94j65YBb/qljuWYO+e1W\ncXUjZt7zGeCsB2CyZWXHZRLqTtIxrI+7dQAt7aE+Ym3Vopmwo5hfodITpoctisJy\n6ZocPS5OEu9pHwvCoMf/vz7iy1VVn1wIfFYfTHbuo1P9rc05SuDGvOe3rWtPflGk\nJzDrfvxJAgMBAAECggEACRnRIRwdaVLuCmMb0R/lniazUeb1h1x2y5TK8WHmOb6B\nva1SBm9DKRWWhjC1W8sGuBuYZ88BH/IgXTLfn2lMim1tXVtgs8Bk69Else8G0Q9Z\nFK7sZKf+ql9Cuifhrc2G4Xcpk5ilfSGnrzjExWsAeqkL1iALmsnEa7BdjR+TE4tG\nsh12nkURMm/aOInQ0gNvtvP8f2wLQ+jzSiamjELQE7+bNrSeUuxhC31JaM1SDkkG\n22rpFbE60grAYRf5f5UeOdzEumZSaMI/F7JoawCwDCx3IWxDWtyrwPTUfxH6oc9N\nvTAxAnp0yPvaSz1IWMAR4vBZAePHGU1H5pmQYM944QKBgQDiJYbRr9H8kx7qFM09\nnFIkSieakemxvK58XulKpbED5pLjxJveh16RmxVR3wgjVb/9TseoB1gB7wiA98z8\nSioUVc6VJXGzBtN7ajkDaBQUw9udObMy3X+KzaNbZDHiuKy9PACG3fW9XvO+6ocq\nG+I1mbZ9OqZq3ToZgrmDoUhSoQKBgQDbyyBb9c2O46uhjHjZ3l82qSRYrIkXlvo5\nMh9ifYN9+kA3pAu4irN+pjny+ebuOlPLIR7ZSGdD40SY/ZkQI8kA84sflPrU9QDF\nozeFqI65htcCsPohyI25MK9rX3ml91JEFmC6wCtw0uACUlL/Ev+sf4TySWBhnunq\n3dW5glpwqQKBgAaqrIrJ8BrOC39DFbnXPeSr+vbnjkgbE9m+wonc0JcY2QO17BJn\nUzZfqAU92fOQt5Q0GlatwL5t2YZTx8s4NH1c+jYTYIKylNFylDOxgcYK8BJ2fP3m\n4bep0EMFdSMF5rG9bxaKvI/UmMLsDwgCwmxqF6Mhc356/xd5bxaeTo+BAoGBAJ1u\nS0lTMN9uV9so4M89JnnigTQ6sR+CdsxNCInlWS/89c5k5DhUsOjAa7WMJkrw4GAY\n4x3DbKQFv3bN/rq+xxS1XStL7LZonxrxI63K5CAjYxJ8bU2Rd2H0a1G/W0Tzd6tp\nU/Ov/e2cPfOrv+MQWq3V0QYyZKTHzMj8CEAODHWxAoGAZGPFIYkL8uBl5GFKpEmn\nPqdm+0Tw2PBsb0rbq2YVi3gGthuNfj9z6FGW5euGqeLW4LTVVtbN9W8lkKJ3YMiA\n/aDdvDLZ+q5La0cFPwEB3OHO1qyVeBUuTIQ0o2whIbKgZKCPjmGsheg4Ok12ObpZ\nOyDz/abSkwWOkantiNSeOqI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rasa3gdrive@rasasmart.iam.gserviceaccount.com",
+  "client_id": "101661275757191414227",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rasa3gdrive%40rasasmart.iam.gserviceaccount.com"
+}

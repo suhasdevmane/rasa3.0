@@ -8,10 +8,29 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - give_temperature
+
+entities:
+  - temp
+
+
+# slots: 
+#   give_temperature:
+#     type: float
+#     influence_conversation: true
+#     mappings:
+#       - type: custom
+#       - action: action_give_temperature
+        
+
+
+actions:
+  - action_give_temperature
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hi. How can i help you today?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -29,6 +48,12 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_ask_humidity:
+  - text: "Do you want to know Humidity level as well?"
+ 
+  utter_ask_nexttime:
+  - text: "currently I'm learning on those things. Please ask something else."
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

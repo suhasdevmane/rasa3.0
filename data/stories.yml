@@ -28,3 +28,26 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+
+- story: path about temperature
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: give_temperature
+  - action: action_give_temperature
+  # - action: utter_ask_humidity
+  # - intent: affirm
+  # - action: utter_ask_nexttime
+
+
+
+# - story: path2 about temperature
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: give_temperature
+#   - action: action_give_temperature
+#   - action: utter_ask_humidity
+#   - intent: deny
+#   - action: utter_ask_nexttime
