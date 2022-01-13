@@ -10,6 +10,36 @@ intents:
   - bot_challenge
   - asked_temperature
   - asked_average_temperature
+  - asked_minimum_temperature
+  - asked_maximum_temperature
+  - asked_dry_contact_status
+  - asked_number_of_visited
+  - asked_number_of_people_present_in_smartlab
+  - asked_chair_status
+  - asked_table_status
+  - asked_occupancy_status
+  - asked_co2_level
+  - asked_average_co2_level
+  - asked_minimum_co2_level
+  - asked_maximum_co2_level
+  - asked_humidity_level
+  - asked_average_humidity_level
+  - asked_minimum_humidity_level
+  - asked_maximum_humidity_level
+  - asked_window_status
+  - asked_multi_channel_temperatures
+  - asked_channel_one_temperature
+  - asked_channel_one_mean_temperature
+  - asked_channel_one_minimum_temperature
+  - asked_channel_one_maximum_temperature
+  - asked_channel_two_temperature
+  - asked_channel_two_mean_temperature
+  - asked_channel_two_minimum_temperature
+  - asked_channel_two_maximum_temperature
+  - asked_channel_three_temperature
+  - asked_channel_three_mean_temperature
+  - asked_channel_three_minimum_temperature
+  - asked_channel_three_maximum_temperature
 
 entities:
   - temp

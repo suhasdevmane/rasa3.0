@@ -30,17 +30,74 @@ stories:
   - action: utter_goodbye
 
 
-- story: path about temperature
+- story: project path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: asked_temperature
-  - action: action_give_temperature
+  - action: action_asked_temperature
   - intent: asked_average_temperature
-  - action: action_give_average_temperature
-  # - action: utter_ask_nexttime
-
-
+  - action: action_asked_average_temperature
+  - intent: asked_minimum_temperature
+  - action: action_asked_minimum_temperature
+  - intent: asked_maximum_temperature
+  - action: action_asked_maximum_temperature
+  - intent: asked_dry_contact_status
+  - action: action_asked_dry_contact_status
+  - intent: asked_number_of_visited
+  - action: action_asked_number_of_visited
+  - intent: asked_number_of_people_present_in_smartlab
+  - action: action_asked_number_of_people_present_in_smartlab
+  - intent: asked_chair_status
+  - action: action_asked_chair_status
+  - intent: asked_table_status
+  - action: action_asked_table_status
+  - intent: asked_occupancy_status
+  - action: action_asked_occupancy_status
+  - intent: asked_co2_level
+  - action: action_asked_co2_level
+  - intent: asked_average_co2_level
+  - action: action_asked_average_co2_level
+  - intent: asked_minimum_co2_level
+  - action: action_asked_minimum_co2_level
+  - intent: asked_maximum_co2_level
+  - action: action_asked_maximum_co2_level
+  - intent: asked_humidity_level
+  - action: action_asked_humidity_level
+  - intent: asked_average_humidity_level
+  - action: action_asked_average_humidity_level
+  - intent: asked_minimum_humidity_level
+  - action: action_asked_minimum_humidity_level
+  - intent: asked_maximum_humidity_level
+  - action: action_asked_maximum_humidity_level
+  - intent: asked_window_status
+  - action: action_asked_window_status
+  - intent: asked_multi_channel_temperatures
+  - action: action_asked_multi_channel_temperatures
+  - intent: asked_channel_one_temperature
+  - action: action_asked_channel_one_temperature
+  - intent: asked_channel_one_mean_temperature
+  - action: action_asked_channel_one_mean_temperature
+  - intent: asked_channel_one_minimum_temperature
+  - action: action_asked_channel_one_minimum_temperature
+  - intent: asked_channel_one_maximum_temperature
+  - action: action_asked_channel_one_maximum_temperature
+  - intent: asked_channel_two_temperature
+  - action: action_asked_channel_two_temperature
+  - intent: asked_channel_two_mean_temperature
+  - action: action_asked_channel_two_mean_temperature
+  - intent: asked_channel_two_minimum_temperature
+  - action: action_asked_channel_two_minimum_temperature
+  - intent: asked_channel_two_maximum_temperature
+  - action: action_asked_channel_two_maximum_temperature
+  - intent: asked_channel_three_temperature
+  - action: action_asked_channel_three_temperature
+  - intent: asked_channel_three_mean_temperature
+  - action: action_asked_channel_three_mean_temperature
+  - intent: asked_channel_three_minimum_temperature
+  - action: action_asked_channel_three_minimum_temperature
+  - intent: asked_channel_three_maximum_temperature
+  - action: action_asked_channel_three_maximum_temperature
 
 # - story: path2 about temperature
 #   steps:

@@ -2,6 +2,11 @@ version: "3.0"
 
 rules:
 
+- rule: greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -15,10 +20,161 @@ rules:
 - rule: gives temperature
   steps:
   - intent: asked_temperature
-  - action: action_give_temperature
+  - action: action_asked_temperature
 
 
 - rule: gives average temperature
   steps:
   - intent: asked_average_temperature
-  - action: action_give_average_temperature
+  - action: action_asked_average_temperature
+
+
+- rule: gives minimum temperature
+  steps:
+  - intent: asked_minimum_temperature
+  - action: action_asked_minimum_temperature
+
+- rule: gives maximum temperature
+  steps:
+  - intent: asked_maximum_temperature
+  - action: action_asked_maximum_temperature
+
+- rule: gives information about status of fire alarm array
+  steps:
+  - intent: asked_dry_contact_status
+  - action: action_asked_dry_contact_status
+
+- rule: gives visitor counts
+  steps:
+  - intent: asked_number_of_visited
+  - action: action_asked_number_of_visited
+
+- rule: gives number of people present at the moment
+  steps:
+  - intent: asked_number_of_people_present_in_smartlab
+  - action: action_asked_number_of_people_present_in_smartlab
+
+- rule: gives chair status
+  steps:
+  - intent: asked_chair_status
+  - action: action_asked_chair_status
+
+- rule: gives table status
+  steps:
+  - intent: asked_table_status
+  - action: action_asked_table_status
+
+- rule: gives occupancy status
+  steps:
+  - intent: asked_occupancy_status
+  - action: action_asked_occupancy_status
+
+- rule: gives co2 level available
+  steps:
+  - intent: asked_co2_level
+  - action: action_asked_co2_level
+
+- rule: gives average co2 level available
+  steps:
+  - intent: asked_average_co2_level
+  - action: action_asked_average_co2_level
+
+- rule: gives minimum co2 level found
+  steps:
+  - intent: asked_minimum_co2_level
+  - action: action_asked_minimum_co2_level
+
+- rule: gives maximum co2 level found
+  steps:
+  - intent: asked_maximum_co2_level
+  - action: action_asked_maximum_co2_level
+
+- rule: gives humidity level
+  steps:
+  - intent: asked_humidity_level
+  - action: action_asked_humidity_level
+
+- rule: gives average humidity level
+  steps:
+  - intent: asked_average_humidity_level
+  - action: action_asked_average_humidity_level
+
+- rule: gives minimum humidity found
+  steps:
+  - intent: asked_minimum_humidity_level
+  - action: action_asked_minimum_humidity_level
+
+- rule: gives maximum humidity level
+  steps:
+  - intent: asked_maximum_humidity_level
+  - action: action_asked_maximum_humidity_level
+
+- rule: gives window status
+  steps:
+  - intent: asked_window_status
+  - action: action_asked_window_status
+
+- rule: gives all channels output
+  steps:
+  - intent: asked_multi_channel_temperatures
+  - action: action_asked_multi_channel_temperatures
+
+- rule: gives channel one temperature
+  steps:
+  - intent: asked_channel_one_temperature
+  - action: action_asked_channel_one_temperature
+
+- rule: gives channel one mean temperature
+  steps:
+  - intent: asked_channel_one_mean_temperature
+  - action: action_asked_channel_one_mean_temperature
+
+- rule: gives channel one minimum temperature 
+  steps:
+  - intent: asked_channel_one_minimum_temperature
+  - action: action_asked_channel_one_minimum_temperature
+
+- rule: gives channel one maximum temperature
+  steps:
+  - intent: asked_channel_one_maximum_temperature
+  - action: action_asked_channel_one_maximum_temperature
+
+- rule: gives channel two temperature
+  steps:
+  - intent: asked_channel_two_temperature
+  - action: action_asked_channel_two_temperature
+
+- rule: gives channel two mean temperature
+  steps:
+  - intent: asked_channel_two_mean_temperature
+  - action: action_asked_channel_two_mean_temperature
+
+- rule: gives channel two minimum temperature
+  steps:
+  - intent: asked_channel_two_minimum_temperature
+  - action: action_asked_channel_two_minimum_temperature
+
+- rule: gives channel two maximum temperature
+  steps:
+  - intent: asked_channel_two_maximum_temperature
+  - action: action_asked_channel_two_maximum_temperature
+
+- rule: gives channel three temperature
+  steps:
+  - intent: asked_channel_three_temperature
+  - action: action_asked_channel_three_temperature
+
+- rule: gives channel three mean temperature
+  steps:
+  - intent: asked_channel_three_mean_temperature
+  - action: action_asked_channel_three_mean_temperature
+
+- rule: gives channel three minimum temperature
+  steps:
+  - intent: asked_channel_three_minimum_temperature
+  - action: action_asked_channel_three_minimum_temperature
+
+- rule: gives channel three maximum temperature
+  steps:
+  - intent: asked_channel_three_maximum_temperature
+  - action: action_asked_channel_three_maximum_temperature
