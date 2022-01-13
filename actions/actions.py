@@ -38,12 +38,12 @@ class action_give_temp(Action):
         df['temperature Value'] = df['temperature Value'].astype(float)
         #meantemp = df['temperature Value'].mean()
         temp = df.iloc[-1, 5]
+        temp = round(temp,2)
         #temp = tracker.get_slot("temp")
         if not temp:
             dispatcher.utter_message(text= "could'nt get right temperature. please try again")
         else:
-            dispatcher.utter_message(text= " temperature is :")
-            dispatcher.utter_message(text=f"{temp}")
+            dispatcher.utter_message(text= " temperature is {} degrees".format(temp))
         return []
 
 
@@ -73,11 +73,12 @@ class action_give_average_temp(Action):
         df.columns = ls
         df['temperature Value'] = df['temperature Value'].astype(float)
         avgtemp = df['temperature Value'].mean()
+        avgtemp = round(avgtemp,2)
         #temp = df.iloc[-1, 5]
         #temp = tracker.get_slot("temp")
         if not avgtemp:
             dispatcher.utter_message(text= "could'nt get right temperature. please try again")
         else:
-            dispatcher.utter_message(text= " average temperature is :")
-            dispatcher.utter_message(text=f"{avgtemp}")
+            dispatcher.utter_message(text= " the mean temperature is about {} degrees".format(avgtemp))
+
         return []

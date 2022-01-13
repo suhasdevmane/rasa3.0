@@ -109,3 +109,498 @@ nlu:
     - tell me [average temperature](avgtemp)
     - what is [temperature mean](avgtemp)
     - what is [average temperature](avgtemp)
+
+
+
+- intent: asked_minimum_temperature
+  examples: |
+    - can you tell me what [minimum temperature](avgtemp) it is?
+    - tell me the [temperature minimum](avgtemp)
+    - got the [minimum temperature](avgtemp)
+    - what [minimum temperature](avgtemp) is it?
+    - how much the [minimum temperature](avgtemp) it is?
+    - tell me [minimum temperature](avgtemp)
+    - what is [temperature minimum](avgtemp)
+    - what is [minimum temperature](avgtemp)
+
+
+- intent: asked_maximum_temperature
+  examples: |
+    - can you tell me what [maximum temperature](avgtemp) it is?
+    - tell me the [temperature maximum](avgtemp)
+    - got the [maximum temperature](avgtemp)
+    - what [maximum temperature](avgtemp) is it?
+    - how much the [maximum temperature](avgtemp) it is?
+    - tell me [maximum temperature](avgtemp)
+    - what is [temperature maximum](avgtemp)
+    - what is [maximum temperature](avgtemp)
+
+
+- intent: asked_dry_contact_status
+  examples: |
+    - [dry contact](drycontact) is open or close?
+    - is [dry contact](drycontact) sensor closed?
+    - is [dry contact](drycontact) sensor open?
+    - tell me about [dry contact](drycontact) sensor status?
+    - what is [dry contact](drycontact) sensor status?
+    - [dry contact](drycontact) sensor situation
+    - is [dry contact](drycontact) sensor position
+  
+- intent: asked_number_of_visited
+  examples: |
+    - how many people come in smarthome
+    - number of people came inside
+    - number of people came in
+    - students came inside smarthome
+    - number of people visited smartlab
+    - number of people visited smarthome
+    - count of people visited
+
+  
+- intent: asked_number_of_people_present_in_smartlab
+  examples: |
+    - how many people are there in smarthome
+    - how many students are there in smartlab
+    - how many occupants are in smartlab
+    - tell me the smartlab people count
+    - what is people count in smartlab
+
+  
+  
+- intent: asked_chair_status
+  examples: |
+   - is chair taken?
+   - is chair empty?
+   - is chair free?
+   - what is chair status?
+   - is chair vacant?
+   - can i get a chair?
+   - can i have a chair to sit?
+   - is nobody on the chair?
+  
+
+
+  
+- intent: asked_table_status
+  examples: |
+   - is table empty?
+   - is table free?
+   - can i get the table please?
+   - please tell me table status
+   - is table taken?
+   - what is the table status?
+
+  
+- intent: asked_occupancy_status
+  examples: |
+   - is their anyone in the lab
+   - what is the smarthome occupancy status?
+   - is somebody inside the smartlab?
+   - is smartlab empty?
+   - is smartlab vacant?
+   - is smarthome empty?
+   - is their anyone inside the smarthome?
+   - is somebody inside smartlab?
+
+  
+- intent: asked_co2_level
+  examples: |
+   - what is co2 level in the smarthome?
+   - what is the co2 amount in smarthome
+   - please tell me co3 level
+   - please inform me co2 level
+   - please tell me co2 value
+   - tell me co2 value
+   - co2 level
+   - CO2 amount
+   - CO2 level please
+
+
+- intent: asked_average_co2_level
+  examples: |
+   - what is average co2 level in the smarthome?
+   - what is the average co2 amount in smarthome
+   - please tell me co2 average level
+   - please inform me co2 level in average
+   - please tell me co2 mean value
+   - tell me mean of co2 value
+   - average co2 level
+   - average CO2 amount
+   - average CO2 level please
+   - tell me average CO2 level
+
+- intent: asked_minimum_co2_level
+   - what is minimum co2 level in the smarthome?
+   - what is the minimum co2 amount in smarthome
+   - please tell me co2 minimum level
+   - please inform me co2 level in minimum
+   - please tell me co2 minimum value
+   - tell me minimum of co2 value
+   - minimum co2 level
+   - minimum CO2 amount
+   - minimum CO2 level please
+   - tell me minimum CO2 level
+  
+- intent: asked_maximum_co2_level
+   - what is maximum co2 level in the smarthome?
+   - what is the maximum co2 amount in smarthome
+   - please tell me co2 maximum level
+   - please inform me co2 level in max
+   - please tell me co2 maximum value
+   - tell me maximum of co2 value
+   - max co2 level
+   - maximum CO2 amount
+   - maximum CO2 level please
+   - tell me maximum CO2 level
+
+
+- intent: asked_humidity_level
+  examples: |
+   - tell me humidity level?
+   - please tell me humidity amount?
+   - tell me humidity
+   - what is humidity level we have in smarthome
+   - humidity level in smartlab
+   - smarthome humidity value
+
+- intent: asked_average_humidity_level
+  examples: |
+   - what is average humidity level in the smarthome?
+   - what is the average humidity amount in smarthome
+   - please tell me humidity average level
+   - please inform me humidity level in average
+   - please tell me humidity mean value
+   - tell me mean of humidity value
+   - average humidity level
+   - average humidity amount
+   - average humidity level please
+   - tell me average humidity level
+
+- intent: asked_minimum_humidity_level
+   - what is minimum humidity level in the smarthome?
+   - what is the minimum humidity amount in smarthome
+   - please tell me humidity minimum level
+   - please inform me humidity level in minimum
+   - please tell me humidity minimum value
+   - tell me minimum of humidity value
+   - minimum humidity level
+   - minimum humidity amount
+   - minimum humidity level please
+   - tell me minimum humidity level
+  
+- intent: asked_maximum_humidity_level
+   - what is maximum humidity level in the smarthome?
+   - what is the maximum humidity amount in smarthome
+   - please tell me humidity maximum level
+   - please inform me humidity level in max
+   - please tell me humidity maximum value
+   - tell me maximum of humidity value
+   - max humidity level
+   - maximum humidity amount
+   - maximum humidity level please
+   - tell me maximum humidity level
+
+  
+- intent: asked_window_status
+  examples: |
+   - is window open?
+   - is window closed?
+   - tell me the status of the window
+   - please tell me window status
+   - did i left window open?
+   - did i put window open?
+   - do i forget to close the window?
+   - did i closed the window?
+   - tell me window status
+
+
+
+  
+- intent: asked_multi_channel_temperatures
+  examples: |
+   - what are the multi channel temperatures?
+   - what are the multi channel temperatures?
+   - what are multi channel temperatures?
+   - tell me multi channel temperatures
+   - please tell me multi channel temperatures?
+   - show me multi channel temperatures
+   - show me multi channel temperatures
+   - show me multi all temperatures
+
+  
+- intent: asked_channel_one_temperature
+  examples: |
+   - what is the channel one temperature?
+   - what is the channel one  temperature?
+   - what is first channel temperature?
+   - tell me channel 1 temperature
+   - please tell me channel one temperature?
+   - show me channel 1 temperature
+   - how much is the channel one temperature
+   - show me temperature of first channel
+
+- intent: asked_channel_one_mean_temperature
+  examples: |
+   - what is the channel one mean temperature?
+   - what is the channel one average temperature?
+   - what is first channel mean temperature?
+   - tell me channel 1 average temperature
+   - please tell me channel one mean temperature?
+   - show me channel 1 mean temperature
+   - how much is the channel one temperature mean
+   - show me average temperature of first channel
+
+
+- intent: asked_channel_one_minimum_temperature
+  examples: |
+   - what is the channel one minimum temperature?
+   - what is the channel one minimum temperature?
+   - what is first channel minimum temperature?
+   - tell me channel 1 minimum temperature
+   - please tell me channel one minimum temperature?
+   - show me channel 1 minimum temperature
+   - how much is the channel one minimum temperature
+   - show me minimum temperature of first channel
+
+- intent: asked_channel_one_maximum_temperature
+  examples: |
+   - what is the channel one maximum temperature?
+   - what is the channel one maximum temperature?
+   - what is first channel maximum temperature?
+   - tell me channel 1 maximum temperature
+   - please tell me channel one maximum temperature?
+   - show me channel 1 maximum temperature
+   - how much is the channel one maximum temperature
+   - show me maximum temperature of first channel
+
+
+
+- intent: asked_channel_two_temperature
+  examples: |
+   - what is the channel 2 temperature?
+   - what is the channel two temperature?
+   - what is second channel temperature?
+   - tell me channel two temperature
+   - please tell me second channel temperature?
+   - show me channel 2 temperature
+   - how much is the channel 2 temperature
+   - show me temperature of second channel
+
+
+- intent: asked_channel_two_mean_temperature
+  examples: |
+   - what is the channel two mean temperature?
+   - what is the channel two average temperature?
+   - what is second channel meant emperature?
+   - tell me channel 2 average temperature
+   - please tell me channel two mean temperature?
+   - show me channel 2 mean temperature
+   - how much is the channel two temperature mean
+   - show me average temperature of second channel
+
+
+- intent: asked_channel_two_minimum_temperature
+  examples: |
+   - what is the channel 2 minimum temperature?
+   - what is the channel 2 minimum temperature?
+   - what is second channel minimum temperature?
+   - tell me channel 2 minimum temperature
+   - please tell me channel two minimum temperature?
+   - show me channel 2 minimum temperature
+   - how much is the channel two minimum temperature
+   - show me minimum temperature of second channel
+
+- intent: asked_channel_two_maximum_temperature
+  examples: |
+   - what is the channel two maximum temperature?
+   - what is the channel two maximum temperature?
+   - what is second channel maximum temperature?
+   - tell me channel 2 maximum temperature
+   - please tell me channel two maximum temperature?
+   - show me channel 2 maximum temperature
+   - how much is the channel two maximum temperature
+   - show me maximum temperature of second channel
+
+
+
+- intent: asked_channel_three_temperature
+  examples: |
+   - what is the channel 3 temperature?
+   - what is the channel three temperature?
+   - what is third channel temperature?
+   - tell me channel three temperature
+   - please tell me third channel temperature?
+   - show me channel 3 temperature
+   - how much is the channel 3 temperature
+   - show me temperature of third channel
+
+
+- intent: asked_channel_three_mean_temperature
+  examples: |
+   - what is the channel three mean temperature?
+   - what is the channel 3 average temperature?
+   - what is third channel mean temperature?
+   - tell me channel 3 average temperature
+   - please tell me channel three mean temperature?
+   - show me channel 3 mean temperature
+   - how much is the channel three temperature mean
+   - show me average temperature of third channel
+
+
+- intent: asked_channel_three_minimum_temperature
+  examples: |
+   - what is the channel three minimum temperature?
+   - what is the channel three minimum temperature?
+   - what is third channel minimum temperature?
+   - tell me channel 3 minimum temperature
+   - please tell me channel three minimum temperature?
+   - show me channel 3 minimum temperature
+   - how much is the channel three minimum temperature
+   - show me minimum temperature of third channel
+
+- intent: asked_channel_three_maximum_temperature
+  examples: |
+   - what is the channel three maximum temperature?
+   - what is the channel three maximum temperature?
+   - what is third channel maximum temperature?
+   - tell me channel 3 maximum temperature
+   - please tell me channel three maximum temperature?
+   - show me channel 3 maximum temperature
+   - how much is the channel three maximum temperature
+   - show me maximum temperature of third channel
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
+
+  
+- intent: asked_average_temperature
+  examples: |
+
+
