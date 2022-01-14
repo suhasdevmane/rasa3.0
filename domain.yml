@@ -48,8 +48,38 @@ entities:
 
 
 actions:
-  - action_give_temperature
-  - action_give_average_temperature
+  - action_asked_temperature
+  - action_asked_average_temperature
+  - action_asked_minimum_temperature
+  - action_asked_maximum_temperature
+  - action_asked_dry_contact_status
+  - action_asked_number_of_visited
+  - action_asked_number_of_people_present_in_smartlab
+  - action_asked_chair_status
+  - action_asked_table_status
+  - action_asked_occupancy_status
+  - action_asked_co2_level
+  - action_asked_average_co2_level
+  - action_asked_minimum_co2_level
+  - action_asked_maximum_co2_level
+  - action_asked_humidity_level
+  - action_asked_average_humidity_level
+  - action_asked_minimum_humidity_level
+  - action_asked_maximum_humidity_level
+  - action_asked_window_status
+  - action_asked_multi_channel_temperatures
+  - action_asked_channel_one_temperature
+  - action_asked_channel_one_mean_temperature
+  - action_asked_channel_one_minimum_temperature
+  - action_asked_channel_one_maximum_temperature
+  - action_asked_channel_two_temperature
+  - action_asked_channel_two_mean_temperature
+  - action_asked_channel_two_minimum_temperature
+  - action_asked_channel_two_maximum_temperature
+  - action_asked_channel_three_temperature
+  - action_asked_channel_three_mean_temperature
+  - action_asked_channel_three_minimum_temperature
+  - action_asked_channel_three_maximum_temperature
 
 responses:
   utter_greet:
@@ -71,11 +101,8 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-  utter_ask_humidity:
-  - text: "Do you want to know Humidity level as well?"
  
-  utter_ask_nexttime:
+  utter_ask_something_else:
   - text: "currently I'm learning on those things. Please ask something else."
   
 session_config:
