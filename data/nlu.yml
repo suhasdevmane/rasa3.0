@@ -103,6 +103,8 @@ nlu:
     - what [temperature](temp) is it?
     - how much the [temperature](temp) it is?
     - tell me [temperature](temp)
+    - what is [temperature](temp) now?
+    - what is the [temperature](temp) in smartlab?
 
 - intent: asked_average_temperature
   examples: |
@@ -113,7 +115,7 @@ nlu:
     - how much the [average temperature](avgtemp) it is?
     - tell me [average temperature](avgtemp)
     - what is [temperature mean](avgtemp)
-    - what is [average temperature](avgtemp)
+    - what is [average temperature](avgtemp) in smartlab?
 
 
 
@@ -158,6 +160,8 @@ nlu:
     - number of people came in
     - students came inside smarthome
     - number of people visited smartlab
+    - number of people visited to the smartlab?
+    - how many people visited to the smartlab?
     - number of people visited smarthome
     - count of people visited
 
@@ -169,6 +173,7 @@ nlu:
     - how many occupants are in smartlab
     - tell me the smartlab people count
     - what is people count in smartlab
+    - number of people present in the smartlab?
 
   
   
@@ -182,6 +187,7 @@ nlu:
    - can i get a chair?
    - can i have a chair to sit?
    - is nobody on the chair?
+   - is chair taken in smartlab?
   
 
 
@@ -446,7 +452,7 @@ nlu:
 - intent: asked_channel_two_maximum_temperature
   examples: |
    - what is the channel two maximum temperature?
-   - what is the channel two maximum temperature?
+   - what is the channel 2 maximum temperature?
    - what is second channel maximum temperature?
    - tell me channel 2 maximum temperature
    - please tell me channel two maximum temperature?

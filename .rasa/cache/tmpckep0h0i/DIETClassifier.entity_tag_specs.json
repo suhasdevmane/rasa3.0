@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-avgtemp",
+      "2": "I-avgtemp",
+      "3": "L-avgtemp",
+      "4": "U-avgtemp",
+      "5": "B-drycontact",
+      "6": "I-drycontact",
+      "7": "L-drycontact",
+      "8": "U-drycontact",
+      "9": "B-temp",
+      "10": "I-temp",
+      "11": "L-temp",
+      "12": "U-temp",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-avgtemp": 1,
+      "I-avgtemp": 2,
+      "L-avgtemp": 3,
+      "U-avgtemp": 4,
+      "B-drycontact": 5,
+      "I-drycontact": 6,
+      "L-drycontact": 7,
+      "U-drycontact": 8,
+      "B-temp": 9,
+      "I-temp": 10,
+      "L-temp": 11,
+      "U-temp": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
