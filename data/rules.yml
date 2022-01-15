@@ -124,55 +124,55 @@ rules:
   - intent: asked_channel_one_temperature
   - action: action_asked_channel_one_temperature
 
-- rule: gives channel one mean temperature
-  steps:
-  - intent: asked_channel_one_mean_temperature
-  - action: action_asked_channel_one_mean_temperature
-
-- rule: gives channel one minimum temperature 
-  steps:
-  - intent: asked_channel_one_minimum_temperature
-  - action: action_asked_channel_one_minimum_temperature
-
-- rule: gives channel one maximum temperature
-  steps:
-  - intent: asked_channel_one_maximum_temperature
-  - action: action_asked_channel_one_maximum_temperature
-
 - rule: gives channel two temperature
   steps:
   - intent: asked_channel_two_temperature
   - action: action_asked_channel_two_temperature
-
-- rule: gives channel two mean temperature
-  steps:
-  - intent: asked_channel_two_mean_temperature
-  - action: action_asked_channel_two_mean_temperature
-
-- rule: gives channel two minimum temperature
-  steps:
-  - intent: asked_channel_two_minimum_temperature
-  - action: action_asked_channel_two_minimum_temperature
-
-- rule: gives channel two maximum temperature
-  steps:
-  - intent: asked_channel_two_maximum_temperature
-  - action: action_asked_channel_two_maximum_temperature
 
 - rule: gives channel three temperature
   steps:
   - intent: asked_channel_three_temperature
   - action: action_asked_channel_three_temperature
 
+- rule: gives channel one mean temperature
+  steps:
+  - intent: asked_channel_one_mean_temperature
+  - action: action_asked_channel_one_mean_temperature
+
+- rule: gives channel two mean temperature
+  steps:
+  - intent: asked_channel_two_mean_temperature
+  - action: action_asked_channel_two_mean_temperature
+
 - rule: gives channel three mean temperature
   steps:
   - intent: asked_channel_three_mean_temperature
   - action: action_asked_channel_three_mean_temperature
 
+- rule: gives channel one minimum temperature 
+  steps:
+  - intent: asked_channel_one_minimum_temperature
+  - action: action_asked_channel_one_minimum_temperature
+
+- rule: gives channel two minimum temperature
+  steps:
+  - intent: asked_channel_two_minimum_temperature
+  - action: action_asked_channel_two_minimum_temperature
+
 - rule: gives channel three minimum temperature
   steps:
   - intent: asked_channel_three_minimum_temperature
   - action: action_asked_channel_three_minimum_temperature
+
+- rule: gives channel one maximum temperature
+  steps:
+  - intent: asked_channel_one_maximum_temperature
+  - action: action_asked_channel_one_maximum_temperature
+
+- rule: gives channel two maximum temperature
+  steps:
+  - intent: asked_channel_two_maximum_temperature
+  - action: action_asked_channel_two_maximum_temperature
 
 - rule: gives channel three maximum temperature
   steps:

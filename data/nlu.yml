@@ -259,6 +259,7 @@ nlu:
 - intent: asked_humidity_level
   examples: |
    - tell me humidity level?
+   - what is humidity level?
    - please tell me humidity amount?
    - tell me humidity
    - what is humidity level we have in smarthome
@@ -303,7 +304,6 @@ nlu:
    - maximum humidity amount
    - maximum humidity level please
    - tell me maximum humidity level
-
   
 - intent: asked_window_status
   examples: |
@@ -317,9 +317,6 @@ nlu:
    - did i closed the window?
    - tell me window status
 
-
-
-  
 - intent: asked_multi_channel_temperatures
   examples: |
    - what are the multi channel temperatures?
@@ -330,7 +327,6 @@ nlu:
    - show me multi channel temperatures
    - show me multi channel temperatures
    - show me multi all temperatures
-
   
 - intent: asked_channel_one_temperature
   examples: |
@@ -343,42 +339,6 @@ nlu:
    - how much is the channel one temperature
    - show me temperature of first channel
 
-- intent: asked_channel_one_mean_temperature
-  examples: |
-   - what is the channel one mean temperature?
-   - what is the channel one average temperature?
-   - what is first channel mean temperature?
-   - tell me channel 1 average temperature
-   - please tell me channel one mean temperature?
-   - show me channel 1 mean temperature
-   - how much is the channel one temperature mean
-   - show me average temperature of first channel
-
-
-- intent: asked_channel_one_minimum_temperature
-  examples: |
-   - what is the channel one minimum temperature?
-   - what is the channel one minimum temperature?
-   - what is first channel minimum temperature?
-   - tell me channel 1 minimum temperature
-   - please tell me channel one minimum temperature?
-   - show me channel 1 minimum temperature
-   - how much is the channel one minimum temperature
-   - show me minimum temperature of first channel
-
-- intent: asked_channel_one_maximum_temperature
-  examples: |
-   - what is the channel one maximum temperature?
-   - what is the channel one maximum temperature?
-   - what is first channel maximum temperature?
-   - tell me channel 1 maximum temperature
-   - please tell me channel one maximum temperature?
-   - show me channel 1 maximum temperature
-   - how much is the channel one maximum temperature
-   - show me maximum temperature of first channel
-
-
-
 - intent: asked_channel_two_temperature
   examples: |
    - what is the channel 2 temperature?
@@ -389,43 +349,6 @@ nlu:
    - show me channel 2 temperature
    - how much is the channel 2 temperature
    - show me temperature of second channel
-
-
-- intent: asked_channel_two_mean_temperature
-  examples: |
-   - what is the channel two mean temperature?
-   - what is the channel two average temperature?
-   - what is second channel meant emperature?
-   - tell me channel 2 average temperature
-   - please tell me channel two mean temperature?
-   - show me channel 2 mean temperature
-   - how much is the channel two temperature mean
-   - show me average temperature of second channel
-
-
-- intent: asked_channel_two_minimum_temperature
-  examples: |
-   - what is the channel 2 minimum temperature?
-   - what is the channel 2 minimum temperature?
-   - what is second channel minimum temperature?
-   - tell me channel 2 minimum temperature
-   - please tell me channel two minimum temperature?
-   - show me channel 2 minimum temperature
-   - how much is the channel two minimum temperature
-   - show me minimum temperature of second channel
-
-- intent: asked_channel_two_maximum_temperature
-  examples: |
-   - what is the channel two maximum temperature?
-   - what is the channel two maximum temperature?
-   - what is second channel maximum temperature?
-   - tell me channel 2 maximum temperature
-   - please tell me channel two maximum temperature?
-   - show me channel 2 maximum temperature
-   - how much is the channel two maximum temperature
-   - show me maximum temperature of second channel
-
-
 
 - intent: asked_channel_three_temperature
   examples: |
@@ -438,6 +361,27 @@ nlu:
    - how much is the channel 3 temperature
    - show me temperature of third channel
 
+- intent: asked_channel_one_mean_temperature
+  examples: |
+   - what is the channel one mean temperature?
+   - what is the channel one average temperature?
+   - what is first channel mean temperature?
+   - tell me channel 1 average temperature
+   - please tell me channel one mean temperature?
+   - show me channel 1 mean temperature
+   - how much is the channel one temperature mean
+   - show me average temperature of first channel
+
+- intent: asked_channel_two_mean_temperature
+  examples: |
+   - what is the channel two mean temperature?
+   - what is the channel two average temperature?
+   - what is second channel meant emperature?
+   - tell me channel 2 average temperature
+   - please tell me channel two mean temperature?
+   - show me channel 2 mean temperature
+   - how much is the channel two temperature mean
+   - show me average temperature of second channel
 
 - intent: asked_channel_three_mean_temperature
   examples: |
@@ -450,6 +394,27 @@ nlu:
    - how much is the channel three temperature mean
    - show me average temperature of third channel
 
+- intent: asked_channel_one_minimum_temperature
+  examples: |
+   - what is the channel one minimum temperature?
+   - what is the channel one minimum temperature?
+   - what is first channel minimum temperature?
+   - tell me channel 1 minimum temperature
+   - please tell me channel one minimum temperature?
+   - show me channel 1 minimum temperature
+   - how much is the channel one minimum temperature
+   - show me minimum temperature of first channel
+
+- intent: asked_channel_two_minimum_temperature
+  examples: |
+   - what is the channel 2 minimum temperature?
+   - what is the channel 2 minimum temperature?
+   - what is second channel minimum temperature?
+   - tell me channel 2 minimum temperature
+   - please tell me channel two minimum temperature?
+   - show me channel 2 minimum temperature
+   - how much is the channel two minimum temperature
+   - show me minimum temperature of second channel
 
 - intent: asked_channel_three_minimum_temperature
   examples: |
@@ -461,6 +426,29 @@ nlu:
    - show me channel 3 minimum temperature
    - how much is the channel three minimum temperature
    - show me minimum temperature of third channel
+
+- intent: asked_channel_one_maximum_temperature
+  examples: |
+   - what is the channel one maximum temperature?
+   - what is the channel one maximum temperature?
+   - what is first channel maximum temperature?
+   - tell me channel 1 maximum temperature
+   - please tell me channel one maximum temperature?
+   - show me channel 1 maximum temperature
+   - how much is the channel one maximum temperature
+   - show me maximum temperature of first channel
+
+- intent: asked_channel_two_maximum_temperature
+  examples: |
+   - what is the channel two maximum temperature?
+   - what is the channel two maximum temperature?
+   - what is second channel maximum temperature?
+   - tell me channel 2 maximum temperature
+   - please tell me channel two maximum temperature?
+   - show me channel 2 maximum temperature
+   - how much is the channel two maximum temperature
+   - show me maximum temperature of second channel
+
 
 - intent: asked_channel_three_maximum_temperature
   examples: |
