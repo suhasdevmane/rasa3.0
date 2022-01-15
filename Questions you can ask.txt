@@ -1,0 +1,42 @@
+i am talking to a chatbot?
+what is the temperature in smartlab?
+what is average temperature?
+what is minimum temperature?
+what is maximum temperature?
+how many people visited to the smartlab?
+what is dry contact sensor status?
+how many people are there in smarthome
+is chair taken in smartlab?
+is table free?
+is somebody inside the smartlab?
+what is co2 level in the smarthome?
+what is average co2 level in the smarthome?
+what is minimum co2 level in the smarthome?
+what is maximum co2 level in the smarthome?
+what is humidity level?
+what is average humidity level in the smarthome?
+what is minimum humidity level in the smarthome?
+what is maximum humidity level in the smarthome?
+is window open?
+what are multi channel temperatures?
+what is the channel one temperature?
+how much is the channel 2 temperature
+how much is the channel 3 temperature
+what is the channel one mean temperature?
+what is the channel two mean temperature?
+what is the channel three mean temperature?
+what is the channel one minimum temperature?
+what is the channel 2 minimum temperature?
+what is third channel minimum temperature?
+what is the channel one maximum temperature?
+what is second channel maximum temperature?
+show me channel 3 maximum temperature
+
+
+
+
+
+
+
+
+

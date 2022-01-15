@@ -755,7 +755,7 @@ class action_gives_channel_1_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -768,6 +768,9 @@ class action_gives_channel_1_temp(Action):
         else:
             dispatcher.utter_message(text= "the channel 1 is temperature is {} degrees".format(ch1))
         return []
+
+
+
 
 class action_gives_channel_2_temp(Action):
 
@@ -786,7 +789,7 @@ class action_gives_channel_2_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -819,7 +822,7 @@ class action_gives_channel_3_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -854,7 +857,7 @@ class action_gives_channel_1_mean_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -890,7 +893,7 @@ class action_gives_channel_2_mean_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -928,7 +931,7 @@ class action_gives_channel_3_mean_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -962,7 +965,7 @@ class action_gives_channel_1_min_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -996,7 +999,7 @@ class action_gives_channel_2_min_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -1031,7 +1034,7 @@ class action_gives_channel_3_min_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -1108,7 +1111,7 @@ class action_gives_channel_1_max_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -1142,7 +1145,7 @@ class action_gives_channel_2_max_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
@@ -1177,7 +1180,7 @@ class action_gives_channel_3_max_temp(Action):
         service = build('sheets', 'v4', credentials=creds)
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:j40000").execute()
+                                            range="Multichannel-Temp-Sensor-3Ch-20to100!a1:l40000").execute()
         values = result.get('values', [])
         df = pd.DataFrame(values)
         ls= list(df.iloc[0])
